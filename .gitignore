@@ -1,0 +1,33 @@
+# Local Terraform directories
+**/.terraform/*
+
+# Terraform state files excludes
+*.tfstate
+*.tfstate.*
+.terraform
+*.terraform.lock.hcl
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files (sensitive data)
+*.tfvars
+*.tfvars.json
+
+# Ignore override files
+*.override.tf
+
+# Ignore temporary lock files
+*.lock
+
+# Ignore local backend configuration
+backend.tf
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore generated files by some tools
+# Adjust the pattern as needed
+generated/*
